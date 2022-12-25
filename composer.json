@@ -65,7 +65,9 @@
         "twig/extra-bundle": "^3.3",
         "twig/markdown-extra": "^3.3",
         "twig/string-extra": "^3.3",
-        "vich/uploader-bundle": "^1.21"
+        "vich/uploader-bundle": "^1.21",
+
+        "devscast/ddd-bundle": "^1.0"
     },
     "require-dev": {
         "symfony/debug-pack": "*",
@@ -98,7 +100,8 @@
     "config": {
         "allow-plugins": {
             "symfony/flex": true,
-            "symfony/runtime": true
+            "symfony/runtime": true,
+            "endroid/installer": false
         },
         "optimize-autoloader": true,
         "preferred-install": {

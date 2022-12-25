@@ -65,9 +65,7 @@
         "twig/extra-bundle": "^3.3",
         "twig/markdown-extra": "^3.3",
         "twig/string-extra": "^3.3",
-        "vich/uploader-bundle": "^1.21",
-
-        "devscast/ddd": "1.0"
+        "vich/uploader-bundle": "^1.21"
     },
     "require-dev": {
         "symfony/debug-pack": "*",

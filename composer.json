@@ -1,8 +1,8 @@
 {
-    "name": "devscast/skeleton",
+    "name": "devscast/symfony-skeleton",
     "type": "project",
     "license": "CC-BY-NC-SA-4.0",
-    "description": "A minimal Symfony project recommended to create bare bones applications",
+    "description": "A Devscast customize Symfony project",
     "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
@@ -67,7 +67,7 @@
         "twig/string-extra": "^3.3",
         "vich/uploader-bundle": "^1.21",
 
-        "devscast/symfony-ddd-recipe": "1.0"
+        "devscast/ddd": "1.0"
     },
     "require-dev": {
         "symfony/debug-pack": "*",
@@ -151,7 +151,7 @@
             "require": "6.2.*",
             "docker": false,
             "endpoint": [
-                "https://api.github.com/repos/devscast/symfony-ddd-recipe/index.json",
+                "https://raw.githubusercontent.com/devscast/symfony-repices/flex/main/index.json",
                 "flex://defaults"
             ]
         }

@@ -19,6 +19,7 @@
         "symfony/yaml": "*",
         "symfony/rate-limiter": "*",
         "symfony/uid": "*",
+	"symfony/locK": "*",
 
         "symfony/webapp-pack": "*",
         "league/glide": "^2.2.2",
